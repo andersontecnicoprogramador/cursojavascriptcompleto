@@ -21,11 +21,11 @@ No Javascript temos 3 palavras- chave para declarar variáveis :
 */
 
 //Declaração de variaveis 
-var a,b,c;
+/*var a,b,c;
 
 // atribuição dos valores
 a=2;
 b=3;
 c= a + b;
 
-alert(c);
+alert(c);/*
