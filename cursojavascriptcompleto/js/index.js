@@ -72,6 +72,67 @@ valor2 = "Moreira";
 total = valor1 + valor2;
 alert(total);*/
 
+//var valor1, valor2,total;
+//valor1 = 8;//Operadores de Comparação ==
+//valor2 = 10;
+
+//total = (valor1 == valor2);//true (verdedadeiro)ou false(falso)
+//alert(total);
+
+/*
+var valor1, valor2,total;
+valor1 = 8;//Operadores de Comparação ==
+valor2 = 12;
+
+total = (valor1 <= 9);//true (verdedadeiro)ou false(falso)
+alert(total);*/
+/*
+var idade,eleitor;
+idade = 25;
+eleitor = (idade<18) ? "Não Eleitor": "Sim, eleitor";
+
+alert('A resposta é ' + eleitor + 'a idade dele é de:' + idade);*/
+
+/*var idade,eleitor,resultado;
+idade = 65;
+eleitor = (idade<18) ? "Não Eleitor": "Sim, eleitor";
+
+resultado = (idade > 60 && idade < 70);//true ///false
+
+alert(resultado);*/
+
+/*var idade,eleitor,resultado;
+idade = 65;
+eleitor = (idade<18) ? "Não Eleitor": "Sim, eleitor";
+
+resultado = (idade === 65 || idade === 72);
+
+alert(resultado);*/
+/*
+var idade,eleitor,resultado;
+idade = 71;
+eleitor = (idade<18) ? "Não Eleitor": "Sim, eleitor";
+
+resultado = (idade ===65);//true // false && || !
+
+alert(resultado); */
+
+/*Funções 
+Uma função Javascript é um bloco de codigo projetado para executar uma tarefa especifica.
+E como uma pequena "fabrica" onde você faz uma entrada e ele te dá uma saida.
+Pode ser encarado como "mini-programas" projetados para fazer uma tarefa que vai contribuir para todo codigo.
+
+uma função Javascript é executada quando "algo" a invonca (chama-a).
+*/
+/*
+function soma(valor1,valor2){
+    return valor1 + valor2;
+}
+
+document.getElementById("texto").innerHTML = soma(10,10); */
+
+
+
 
 
 
