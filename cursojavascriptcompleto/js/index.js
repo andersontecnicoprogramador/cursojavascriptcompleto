@@ -21,11 +21,57 @@ No Javascript temos 3 palavras- chave para declarar variáveis :
 */
 
 //Declaração de variaveis 
-/*var a,b,c;
+//var a,b,c;
 
 // atribuição dos valores
-a=2;
-b=3;
-c= a + b;
+//a=2;
+//b=3;
+//c= a + b;
 
-alert(c);*/
+//alert(c);
+
+/*var x = 10; //aqui é 10
+
+{
+    var x = 2; //aqui é 2 //pode usar let ou const para declarar 
+}
+
+//Aqui também vai ser 2 
+document.getElementById("texto").innerHTML = x;*/
+
+//Operadores
+
+/* Vamos entender Operadores:
+-> Os operadores Javascript são usados para atribuir valores, comparar
+valores,executar operações aritmeticas e muito mais.
+
+são os sinais  que usamos: + - * / = ++= -= && || etc...
+
+São separados em 6 "categorias":
+
+1) Operadores Aritmeticos (matematicos)
+2) Operadores de Atribuição
+3) Operadores de Sequência
+4) Operadores de Comparação
+5) Operadores Condicional (Ternário)
+6) Operadores Lógicos
+*/
+
+//var valor1, valor2, total;
+//valor1 = 5;
+//valor2 = 2;
+
+//total = ++valor1;
+//alert(total);
+//alert('o valor1 ficou:' + valor1);
+
+/*var valor1, valor2,total;
+valor1 = "Anderson ";
+valor2 = "Moreira";
+
+total = valor1 + valor2;
+alert(total);*/
+
+
+
+
