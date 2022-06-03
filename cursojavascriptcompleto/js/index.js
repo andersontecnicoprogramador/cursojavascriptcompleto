@@ -131,6 +131,130 @@ function soma(valor1,valor2){
 
 document.getElementById("texto").innerHTML = soma(10,10); */
 
+//função de soma
+
+//function soma(valor1,valor2){
+  //  return valor1 + valor2;
+//}
+
+//FUNÇÃO DE COTAÇÃO DO DOLAR
+/*
+function realParaDolar(real, cotacaoDolar){
+    return real * cotacaoDolar;
+}
+var  valorReal = 7.89;
+var  cotacao = 5.08;
+
+var total = realParaDolar(valorReal,cotacao);
+
+alert("o valor em real R$:" + valorReal+" o valor em dólar U$ é:"+total);*/
+/*
+function alertaHello(){
+    alert("Olá pessoal");
+}
+alertaHello();
+*/
+/*
+function paraCelsius(valorFhrenheit){
+    return (5/9) * (valorFhrenheit-32);
+}
+
+var x = paraCelsius(77);
+
+alert("A temperatura é de "+x+ "graus celsius");
+*/
+
+/* Objetos 
+Objetos são basicamente variáveis com muitos valores dentro.
+
+Ex:const carro = {marca:"ford",modelo:"ka",ano 2015}
+
+Os valores dentro de um objeto são chamados propriedades.
+
+Objetos também podem ter métodos. Um Método é uma função colocadas dentro de uma propriedade.
+
+*/
+
+/*
+const carro = {
+    marca:"ford",
+    modelo:"ka",
+    ano:2015,
+    placa:"ABC-1234",
+    buzina:function(){ alert(biiiiiiiiiiiiii)},
+    completo:function(){
+        return "A marca é "+this.marca+" e o modelo é "+ this.modelo;
+    }
+};
+
+console.log(carro.completo());
+
+//console.log(carro);
+*/
+
+/*
+
+Eventos
+Eventos são ações disparadas pela intenção dos usuarios na pagina.
+É o correto manejo desses eventos que tornam as páginas interativas e dinâmicas.
+
+Existem muitos eventos. Veja os mais utilizados:
+onclick -> Disparador quando recebe um click.
+ondblclick -> Disparado quando clique duplo.
+onmouseover -> Disparado quando o mouse está sobre.
+onmouseout -> Disparado quando o mouse é movido para fora do elemento.
+onmousemove -> Disparado quando o mouse é movido no elemento.
+onmousedown -> Disparado quando o clique do botão foi pressionado.
+onmouseup -> Disparado quando o clique do botão é liberado.
+onfocus -> Disparado quando o elemento recebe o foco.Válido para input
+onchange -> Disparado quando existe uma mudança  no conteudo."Ao mudar".
+onblur -> Disparado quando o elemento perde o foco.
+onkeydown -> Disparado quando uma tecla é pressionada.
+onkeypress -> Disparado quando uma tecla é pressionada e solta.
+onkeyup -> Disparado quando uma tecla é solta sobre um elemento.
+onload -> Disparado quando a página terminou de ser carregada.Body.
+onresize -> Disparado quando há um redimencionamento da janela.
+
+*/
+
+/*
+function eventoClick(){
+   // alert('Acionou um evento de click');
+    document.body.style.backgroundColor = "red";
+}
+
+*/
+
+/*
+
+function eventoDblClick(){
+     alert('Evento de clique duplo');
+    
+ }
+
+ function viraVermelho(){
+     let div = document.getElementById("teste");
+     div.style.backgroundColor = "red";
+ }
+
+ function viraAzul(){
+    let div = document.getElementById("teste");
+    div.style.backgroundColor = "blue";
+}
+
+function adicionaTexto(){
+    let p = document.getElementById("teste");
+    p.append('O mouse moveu<br>');
+}
+*/
+
+ 
+ 
+
+
+
+
+
 
 
 
