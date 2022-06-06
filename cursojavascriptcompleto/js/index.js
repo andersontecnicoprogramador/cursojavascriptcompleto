@@ -343,13 +343,25 @@ if (interruptor == "on"){
 function verificar(){
     let nome = document.getElementById("nome").value;
 
-    if (nome == "" || nome == null){
+    if (nome == "" || nome==null){
         let p = document.getElementById("teste");
         p.innerHTML = " o campo não pode ser vazio";
         p.style.color = "red";
+    }else{
+        let p = document.getElementById("teste");
+        p.innerHTML = " Tudo certinho";
+        p.style.color = "blue";
     }
 }
- */
+ 
+*/
+
+/* Switch
+É usado para realizar diferentes açãoes com base em diferentes condições 
+no mesmo bloco de verificação.Caso a condição não seja compativel
+não será executada e o valor padrão sera acionado.
+*/
+
 
 
 
