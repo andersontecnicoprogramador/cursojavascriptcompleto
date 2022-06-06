@@ -217,15 +217,13 @@ onresize -> Disparado quando há um redimencionamento da janela.
 
 */
 
-/*
+
 function eventoClick(){
    // alert('Acionou um evento de click');
     document.body.style.backgroundColor = "red";
 }
 
-*/
 
-/*
 
 function eventoDblClick(){
      alert('Evento de clique duplo');
@@ -246,10 +244,112 @@ function adicionaTexto(){
     let p = document.getElementById("teste");
     p.append('O mouse moveu<br>');
 }
+
+function limpaTexto(){
+    document.getElementById("campoTexto").value = "";
+}
+
+function mudou(){
+    console.log('Mudou');
+}
+
+
+/* 
+ARRAYS
+Os arrays JavaScript são usados  para armazenar  vários valores em uma única variável.Diferente dos Objetos,
+que funcionam com propriedades ou "nomes" que você dá para os itens dentro dele, os arrays não possuem propriedades. 
+O item dentro dele é encontrado pela posição.
+Imagine um array como uma lista de itens, com controle, por ordem de posição dentro dele.
+
+Ex: const lista = ["arroz","feijão","macarrão","leite"];
+
+A lista[0] (lista na posição 0) vai conter o valor "arroz".
+A lista[1] (lista na posição1 ) vai conter o valor "feijão".
+
+E assim por diante.
+
+
+
+var item = "arroz";
+var item = "feijão";
+var item =  "macarrão";
+var item = "leite";
+
+const numeros = [ 40,100, 1, 5, 25, 10];
+
+document.getElementById("teste").innerHTML = MaiorNumero(numeros);
+
+
+function MaiorNumero(array){
+    return Math.max.apply(null,array);
+}
+
 */
 
- 
- 
+
+/*
+const lista1 = ["Arroz","feijão","leite","macarrão"];//arrays
+const lista2 = ["Suco","refrigerante", "carne"];
+
+const superLista = lista1.concat(lista2);
+
+document.getElementById("teste").innerHTML= superLista;
+
+*/
+
+//const x = "Moreira";
+//alert(Array.isArray(x));
+//alert(Array.isArray(pessoa));
+//pessoa[8] = "separado";
+//pessoa[pessoa.length] = "Casado";
+//pessoa.push("Brasileiro");
+//alert(pessoa.length);//3
+
+//alert(pessoa[pessoa.length-1]);
+
+//console.log(pessoa);
+
+//alert(pessoa[6]);
+
+
+/* if e else */
+/*
+var interruptor = "off";
+
+if (interruptor == "on"){
+    alert('A lampada está ligada');
+} else{
+    alert('A lampada está desligada');
+}
+
+
+ */
+
+//var hora = new Date().getHours();
+//alert(hora);
+
+//var hora = new Date().getHours();
+
+//if (hora < 12) {
+  //  alert('Bom dia ');
+//}else if (hora < 18){
+  //  alert('Boa tarde');
+//}else{
+  //  alert('Boa noite');
+//}
+
+/*
+
+function verificar(){
+    let nome = document.getElementById("nome").value;
+
+    if (nome == "" || nome == null){
+        let p = document.getElementById("teste");
+        p.innerHTML = " o campo não pode ser vazio";
+        p.style.color = "red";
+    }
+}
+ */
 
 
 
